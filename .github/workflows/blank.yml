@@ -1,0 +1,117 @@
+# <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Definition of Greatness LLC</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <h1>Definition of Greatness LLC</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container">
+      <h2>Your One-Stop Print and Marketing Solution in Las Vegas</h2>
+      <p>Providing quality printing, graphic design, social media, and photography services.</p>
+      <a href="#services" class="cta-button">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-item">
+          <h3>Printing Services</h3>
+          <p>Quality printing for fabric, flags, cups, and more.</p>
+        </div>
+        <div class="service-item">
+          <h3>Graphic Design</h3>
+          <p>Branding, logos, layouts, and custom designs.</p>
+        </div>
+        <div class="service-item">
+          <h3>Digital Marketing</h3>
+          <p>SEO, social media ads, and online presence building.</p>
+        </div>
+        <div class="service-item">
+          <h3>Social Media Management</h3>
+          <p>Content creation, scheduling, and analytics.</p>
+        </div>
+        <div class="service-item">
+          <h3>Photography</h3>
+          <p>Product, real estate, and architectural photography.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="portfolio-item">
+          <img src="image1.jpg" alt="Project 1">
+          <p>Project Description 1</p>
+        </div>
+        <div class="portfolio-item">
+          <img src="image2.jpg" alt="Project 2">
+          <p>Project Description 2</p>
+        </div>
+        <!-- Add more portfolio items as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Our mission is to empower local businesses with high-quality print, design, and digital services.</p>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form action="submit.php" method="post" class="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Definition of Greatness LLC</p>
+    </div>
+  </footer>
+
+</body>
+</html>
